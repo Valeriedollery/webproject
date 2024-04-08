@@ -1,0 +1,148 @@
+@charset "utf-8";
+body{
+		background: #009999;
+		color: #121212;
+		}
+	
+	#wrapper{
+		width: 1500px;
+		border-radius: 25px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	
+	header {
+		width: 1500px;
+		height: 200px;
+		padding-top: 20px;
+		border-radius: 25px 25px 0px 0px;
+		border: 3px solid #000;
+		background: #003366;
+		text-align: center;
+		
+		 }
+	
+	nav {
+    width: 1500px;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+		}
+	
+	main {
+		float: left;
+		width: 1500px;
+		border-top: 2px solid #9D9999;
+		border-right: 1px solid #9D9999;
+		border-bottom: 1px solid #9D9999;
+		border-left: 1px solid #9D9999;
+		background: #009999;
+		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+		 }
+	
+		
+	footer {
+		clear: both;
+		width: 1500px;
+		color: #ffffff;
+		border: 1px solid #595959;
+		border-radius: 0px 0px 25px 25px;
+		background:url("images/Internetpic.jpg");
+		  }
+	
+	h1 {
+		color: #ffffff;
+		font-family: Inter;
+		font-size: 50px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+		}
+	
+	h2 {
+		width:auto;
+		color: #121212;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-transform: uppercase;
+		text-align: center;
+		}
+	
+	
+	
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+			}
+	
+	nav li  {
+			float: left;
+			border-right: 1px thin;
+			}
+	
+	nav li a {
+		display: block;
+		padding: 14px 16px;
+		background-color: #dddddd;
+		color: #393936;
+		text-align: center;
+		text-decoration: none;
+		   }
+	
+	a:link {
+		text-decoration: none;
+		background-color:#ff00ff; 
+		border: thin solid;
+		border-color: #1A0808;
+		width: 150px;
+		padding-right: 3px;
+		padding-left: 3px;
+		text-align: center;
+		color: #ccffff;
+		  }
+	
+	a:visited {
+		text-decoration: none;
+		background-color:#800080; 
+		border: thin solid;
+		border-color: #1A0808;
+		width: 150px;
+		padding-right: 3px;
+		padding-left: 3px;
+		text-align: center;
+		color: #ccffff;
+		     }
+	
+	a:hover {
+		text-decoration: underline;
+		background-color:#888b90; 
+		border: thin solid;
+		border-color: #1A0808;
+		width: 150px;
+		padding-right: 3px;
+		padding-left: 3px;
+		text-align: center;
+		color:  #C7C6C8;
+		    }
+	
+	a:active {
+		color: #E9DEA3;
+		background-color: #C994C7;
+		text-decoration: none;
+		     }
+	
+	
+	section ul {
+				list-style:url("images/bullet 2.png")
+				}
+	
+footer h2 {
+    color: #ffffff;
+		  }
